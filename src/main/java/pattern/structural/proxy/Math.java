@@ -2,22 +2,22 @@ package pattern.structural.proxy;
 
 public class Math implements IMath {
     @Override
-    public double add(double a, double b) {
+    public double add (double a, double b) {
         return a + b;
     }
 
     @Override
-    public double sub(double a, double b) {
+    public double sub (double a, double b) {
         return a - b;
     }
 
     @Override
-    public double mul(double a, double b) {
+    public double mul (double a, double b) {
         return a * b;
     }
 
     @Override
-    public double div(double a, double b) {
+    public double div (double a, double b) {
         return a / b;
     }
 }

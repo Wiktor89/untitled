@@ -5,7 +5,7 @@ public class MathProxy implements IMath {
     private Math math;
 
     @Override
-    public double add(double a, double b) {
+    public double add (double a, double b) {
         if (math == null) {
             math = new Math ();
         }
@@ -13,7 +13,7 @@ public class MathProxy implements IMath {
     }
 
     @Override
-    public double sub(double a, double b) {
+    public double sub (double a, double b) {
         if (math == null) {
             math = new Math ();
         }
@@ -21,7 +21,7 @@ public class MathProxy implements IMath {
     }
 
     @Override
-    public double mul(double a, double b) {
+    public double mul (double a, double b) {
         if (math == null) {
             math = new Math ();
         }
@@ -29,7 +29,7 @@ public class MathProxy implements IMath {
     }
 
     @Override
-    public double div(double a, double b) {
+    public double div (double a, double b) {
         if (math == null) {
             math = new Math ();
         }

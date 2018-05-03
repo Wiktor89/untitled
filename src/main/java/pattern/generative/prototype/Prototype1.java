@@ -6,24 +6,24 @@ public class Prototype1 implements Prototype {
 
     private int age;
 
-    public String getName() {
+    public String getName () {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName (String name) {
         this.name = name;
     }
 
-    public int getAge() {
+    public int getAge () {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge (int age) {
         this.age = age;
     }
 
     @Override
-    public Prototype clone() {
+    public Prototype clone () {
         return new Prototype1 ();
     }
 }
